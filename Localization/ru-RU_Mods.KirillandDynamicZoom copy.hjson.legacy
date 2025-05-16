@@ -1,0 +1,20 @@
+Configs: {
+	DynamicZoomConfig: {
+		DisplayName: Конфигурация Динамического Зума
+
+		zoomInMult: {
+			Label: Множитель скорости приближения
+			Tooltip: ""
+		}
+
+		zoomOutMult: {
+			Label: Множитель скорости отдаления
+			Tooltip: ""
+		}
+
+		maxZoomMult: {
+			Label: Множитель динамического приближения
+			Tooltip: ""
+		}
+	}
+}

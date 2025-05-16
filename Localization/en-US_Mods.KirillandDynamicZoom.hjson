@@ -1,0 +1,20 @@
+Configs: {
+	DynamicZoomConfig: {
+		DisplayName: Dynamic Zoom Config
+
+		zoomInMult: {
+			Label: Zoom-In speed multiplier
+			Tooltip: ""
+		}
+
+		zoomOutMult: {
+			Label: Zoom-Out speed multiplier
+			Tooltip: ""
+		}
+
+		maxZoomMult: {
+			Label: Dynamic zoom multiplier
+			Tooltip: ""
+		}
+	}
+}

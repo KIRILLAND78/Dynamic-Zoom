@@ -1,0 +1,9 @@
+This mod automatically zoom in your screen in towns (if no boss or invasion is present) and zoom out when leaving.
+
+There is also config so you can change anything according to your liking.
+
+Probably will break with mods tampering with zoom settings. No, i will not fix that.
+
+Created by request of a friend of mine.
+
+I did some reflections and maybe it supports Better Zoom now. Maybe. Probably.
