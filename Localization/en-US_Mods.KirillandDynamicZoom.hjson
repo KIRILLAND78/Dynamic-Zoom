@@ -16,5 +16,10 @@ Configs: {
 			Label: Dynamic zoom multiplier
 			Tooltip: ""
 		}
+
+		zoomDelay: {
+			Label: Zoom-In and Zoom-Out delay (in seconds)
+			Tooltip: ""
+		}
 	}
 }

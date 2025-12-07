@@ -25,6 +25,11 @@ namespace KirillandDynamicZoom
 		[DefaultValue(1f)]
 		[Range(0.5f, 2f)]
 		public float maxZoomMult;
+        [Label("Zoom delay")]
+        [DefaultValue(1f)]
+        [Range(0.5f, 10f)]
+		[Increment(0.5f)]
+        public float zoomDelay;
 
-	}
+    }
 }

@@ -7,3 +7,7 @@ Probably will break with mods tampering with zoom settings. No, i will not fix t
 Created by request of a friend of mine.
 
 I did some reflections and maybe it supports Better Zoom now. Maybe. Probably.
+
+Also now supports AbsoluteZinema.
+
+(Also i lost source code and had to decompile my own mod to make new update)
