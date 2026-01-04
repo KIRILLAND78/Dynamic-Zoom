@@ -21,5 +21,45 @@ Configs: {
 			Label: Задержка приближения/отдаления (в секундах)
 			Tooltip: ""
 		}
+
+		zoomOutHurt: {
+			// Label: Zoom-Out when hurt even in towns
+			// Tooltip: ""
+		}
+
+		zoomOutSwim: {
+			// Label: Zoom-Out when swimming even in towns
+			// Tooltip: ""
+		}
+
+		zoomRunFast: {
+			// Label: Zoom-Out when running fast even in towns
+			// Tooltip: ""
+		}
+
+		zoomRunFastThreshold: {
+			// Label: Threshold for "Fast running" (in in-game mph)
+			// Tooltip: ""
+		}
+
+		zoomOutHurtTime: {
+			// Label: Zoom-out time after taking damage
+			// Tooltip: ""
+		}
+
+		zoomOutRunFast: {
+			// Label: Zoom-Out when running fast even in towns
+			// Tooltip: ""
+		}
+
+		extraZoomOutWhenBoss: {
+			// Label: extra Zoom Out When Boss
+			// Tooltip: ""
+		}
+
+		extraZoomOutWhenBossMult: {
+			// Label: extra Zoom Out When Boss Mult
+			// Tooltip: ""
+		}
 	}
 }

@@ -13,19 +13,45 @@ namespace KirillandDynamicZoom
 	{
 		public override ConfigScope Mode => ConfigScope.ClientSide;
 
-		[Label("Zoom-In speed multiplier")]
-		[DefaultValue(1f)]
+        [DefaultValue(false)]
+        public bool zoomOutHurt;
+
+        [DefaultValue(1f)]
+        [Range(1f, 15f)]
+        [Increment(0.5f)]
+        public float zoomOutHurtTime;
+
+        [DefaultValue(false)]
+        public bool zoomOutSwim;
+
+        [DefaultValue(false)]
+        public bool zoomOutRunFast;
+
+        [DefaultValue(26f)]
+        [Range(18f, 60f)]
+        [Increment(2f)]
+        public float zoomRunFastThreshold;
+
+        [DefaultValue(false)]
+        public bool extraZoomOutWhenBoss;
+
+        [DefaultValue(1f)]
+        [Range(0.5f, 2f)]
+        public float extraZoomOutWhenBossMult;
+
+        [DefaultValue(1f)]
 		[Range(0.1f, 7f)]
 		public float zoomInMult;
-		[Label("Zoom-Out speed multiplier")]
+
 		[DefaultValue(1f)]
 		[Range(0.1f, 7f)]
 		public float zoomOutMult;
-		[Label("Max zoom multiplier")]
+
 		[DefaultValue(1f)]
 		[Range(0.5f, 2f)]
 		public float maxZoomMult;
-        [Label("Zoom delay")]
+
+
         [DefaultValue(1f)]
         [Range(0.5f, 10f)]
 		[Increment(0.5f)]
