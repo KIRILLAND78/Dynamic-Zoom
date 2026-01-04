@@ -11,3 +11,5 @@ I did some reflections and maybe it supports Better Zoom now. Maybe. Probably.
 Also now supports AbsoluteZinema.
 
 (Also i lost source code and had to decompile my own mod to make new update)
+
+Update 05.01.2026: Extra zoom-out during bossfights. Zoom-out when swimming, quickly moving and taking damage in towns. All disabled by default, check configs.

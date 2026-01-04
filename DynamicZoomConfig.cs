@@ -36,19 +36,23 @@ namespace KirillandDynamicZoom
         public bool extraZoomOutWhenBoss;
 
         [DefaultValue(1f)]
-        [Range(0.5f, 2f)]
+        [Range(0.5f, 4f)]
+        [Increment(0.1f)]
         public float extraZoomOutWhenBossMult;
 
         [DefaultValue(1f)]
 		[Range(0.1f, 7f)]
-		public float zoomInMult;
+        [Increment(0.1f)]
+        public float zoomInMult;
 
 		[DefaultValue(1f)]
 		[Range(0.1f, 7f)]
-		public float zoomOutMult;
+        [Increment(0.1f)]
+        public float zoomOutMult;
 
 		[DefaultValue(1f)]
-		[Range(0.5f, 2f)]
+		[Range(0.5f, 4f)]
+        [Increment(0.1f)]
 		public float maxZoomMult;
 
 

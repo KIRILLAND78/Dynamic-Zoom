@@ -23,43 +23,38 @@ Configs: {
 		}
 
 		zoomOutHurt: {
-			// Label: Zoom-Out when hurt even in towns
-			// Tooltip: ""
+			Label: Отдалять камеру при получении урона даже в городах
+			Tooltip: ""
 		}
 
 		zoomOutSwim: {
-			// Label: Zoom-Out when swimming even in towns
-			// Tooltip: ""
-		}
-
-		zoomRunFast: {
-			// Label: Zoom-Out when running fast even in towns
-			// Tooltip: ""
+			Label: Отдалять камеру при плавании даже в городах
+			Tooltip: ""
 		}
 
 		zoomRunFastThreshold: {
-			// Label: Threshold for "Fast running" (in in-game mph)
-			// Tooltip: ""
+			Label: Насколько "Быстрое передвижение" быстрое (в миль/ч)
+			Tooltip: ""
 		}
 
 		zoomOutHurtTime: {
-			// Label: Zoom-out time after taking damage
-			// Tooltip: ""
+			Label: Внутренний таймер отдаления при получении урона
+			Tooltip: ""
 		}
 
 		zoomOutRunFast: {
-			// Label: Zoom-Out when running fast even in towns
-			// Tooltip: ""
+			Label: Отдалять камеру при быстром передвижении даже в городах
+			Tooltip: ""
 		}
 
 		extraZoomOutWhenBoss: {
-			// Label: extra Zoom Out When Boss
-			// Tooltip: ""
+			Label: Дополнительное отдаление при живом боссе
+			Tooltip: ""
 		}
 
 		extraZoomOutWhenBossMult: {
-			// Label: extra Zoom Out When Boss Mult
-			// Tooltip: ""
+			Label: Множитель отдаления при живом боссе
+			Tooltip: ""
 		}
 	}
 }

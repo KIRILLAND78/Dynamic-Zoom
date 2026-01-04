@@ -32,11 +32,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		zoomRunFast: {
-			Label: Zoom-Out when running fast even in towns
-			Tooltip: ""
-		}
-
 		zoomRunFastThreshold: {
 			Label: Threshold for "Fast running" (in in-game mph)
 			Tooltip: ""
@@ -53,12 +48,12 @@ Configs: {
 		}
 
 		extraZoomOutWhenBoss: {
-			Label: extra Zoom Out When Boss
+			Label: Extra Zoom-Out during bossfights
 			Tooltip: ""
 		}
 
 		extraZoomOutWhenBossMult: {
-			Label: extra Zoom Out When Boss Mult
+			Label: Extra Zoom-Out during bossfights multiplier
 			Tooltip: ""
 		}
 	}
