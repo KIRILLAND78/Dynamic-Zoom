@@ -62,7 +62,6 @@ namespace KirillandDynamicZoom
                 {
                     if (zoom < -0.01)
                     {
-                        Main.NewText(zoom);
                         zoom += ModContent.GetInstance<DynamicZoomConfig>().zoomOutMult;
                         Main.GameZoomTarget = Utils.Clamp<float>(Main.GameZoomTarget + 0.003f * ModContent.GetInstance<DynamicZoomConfig>().zoomOutMult, KirillandDynamicZoom.minZoom, KirillandDynamicZoom.maxZoom);
                     }
